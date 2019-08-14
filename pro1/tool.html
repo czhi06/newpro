@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.sc-total-tool {
+				background: #fff;
+				width: 1200px;
+				height: 60px;
+				box-shadow: 0 2px 26px rgba(0, 0, 0, 0.07);
+			}
+			
+			.sc-total-control {
+				width: 120px;
+				line-height: 60px;
+				font-size: 12px;
+				margin-left: 40px;
+				float: left;
+			}
+			
+			.sc-total-control a {
+				text-decoration: none;
+				margin-left: 20px;
+				color: #000000;
+			}
+			
+			.sc-total-price {
+				float: left;
+				width: 860px;
+				height: 100%;
+				font-size: 14px;
+				margin-top: 10px;
+			}
+			.sc-total-price p{
+				float: right;
+			}
+			.sc-total-price p span{
+				color:  #CA151E;
+				font-size: 16px;
+			}
+			.total-choose{
+				float: right;
+				line-height: 60px;
+				margin-right:-82px
+			}
+			.total-choose em{
+                font-size: 12px;
+                color:  #CA151E;
+                font-style: normal;
+			}
+			.total-choose span{
+                font-size: 16px;
+                color:  #CA151E;
+			}
+			.sc-total-btn {
+				float: right;
+				width: 180px;
+				height: 60px;
+				background: #CA151E;
+				text-align: center;
+			}
+			
+			.sc-total-btn a {
+				text-decoration: none;
+				color: #fff;
+				line-height: 60px;
+				font-size: 18px;
+			}
+		</style>
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+	</head>
+
+	<body>
+		<div class="sc-total-tool container ">
+			<div class="sc-total-control ">
+				<label><input type="checkbox" class="vam"/>全选</label>
+				<a href="#">删除</a>
+			</div>
+			<div class="sc-total-price">
+				<p>
+					<label>总计:</label>
+					<span>¥&nbsp;0.00</span>
+				</p>
+
+				<div class="total-choose">
+					已选择
+					<em>0</em> "件商品,优惠:"
+					<span>¥&nbsp;0.00</span>
+				</div>
+			</div>
+			<div class="sc-total-btn ">
+				<a href="#">立即结算</a>
+			</div>
+		</div>
+	</body>
+
+</html>
